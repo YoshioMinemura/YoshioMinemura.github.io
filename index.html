@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Yoshio Minemura | 峯村 祥生</title>
+
+  <meta
+    name="description"
+    content="Yoshio Minemura (峯村祥生), University of Tokyo. Research on large language models, reasoning, and internal representations."
+  >
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2328;
+      --subtext: #656d76;
+      --border: #d8dee4;
+      --card: #f6f8fa;
+      --accent: #0969da;
+      --accent-light: #ddf4ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --text: #e6edf3;
+        --subtext: #8b949e;
+        --border: #30363d;
+        --card: #161b22;
+        --accent: #58a6ff;
+        --accent-light: #12263a;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Noto Sans JP",
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.75;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0 80px;
+    }
+
+    header {
+      margin-bottom: 56px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 8vw, 3.4rem);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+    }
+
+    .name-ja {
+      margin-top: 8px;
+      font-size: 1.15rem;
+      color: var(--subtext);
+    }
+
+    .affiliation {
+      margin-top: 18px;
+      color: var(--subtext);
+      font-size: 1rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: 0.15s ease;
+    }
+
+    .button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    section {
+      margin-top: 52px;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      font-size: 1.35rem;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .research-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-size: 0.88rem;
+    }
+
+    .presentation {
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+    }
+
+    .presentation-id {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .presentation-title {
+      margin: 0;
+      font-size: 1.1rem;
+      line-height: 1.65;
+      font-weight: 650;
+    }
+
+    .authors {
+      margin-top: 14px;
+      color: var(--subtext);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 72px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--subtext);
+      font-size: 0.85rem;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    @media (max-width: 500px) {
+      main {
+        width: min(100% - 32px, 760px);
+        padding-top: 48px;
+      }
+
+      section {
+        margin-top: 42px;
+      }
+
+      .presentation {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <header>
+      <h1>Yoshio Minemura</h1>
+      <div class="name-ja">峯村 祥生</div>
+
+      <div class="affiliation">
+        The University of Tokyo / 東京大学
+      </div>
+
+      <div class="links">
+        <a
+          class="button"
+          href="YOUR_GITHUB_URL"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a
+          class="button"
+          href="mailto:YOUR_EMAIL"
+        >
+          Email
+        </a>
+      </div>
+    </header>
+
+
+    <section>
+      <h2>About</h2>
+
+      <p>
+        I am a researcher at the University of Tokyo interested in
+        large language models and their reasoning mechanisms.
+        My current research focuses on understanding and utilizing
+        internal representations of LLMs.
+      </p>
+
+      <p>
+        東京大学で、大規模言語モデル（LLM）の推論機構や
+        内部表現に関する研究に取り組んでいます。
+      </p>
+
+      <div class="research-list">
+        <span class="tag">Large Language Models</span>
+        <span class="tag">LLM Reasoning</span>
+        <span class="tag">Internal Representations</span>
+        <span class="tag">Representation Engineering</span>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Presentation</h2>
+
+      <div class="presentation">
+
+        <div class="presentation-id">
+          S03-35
+        </div>
+
+        <p class="presentation-title">
+          LLM推論における内部表現を用いた
+          ヒント妥当性の推定と選択的介入
+        </p>
+
+        <div class="authors">
+          峯村 祥生（東京大学）<br>
+          浅野 輝（東京大学）<br>
+          馬場 雪乃（東京大学）
+        </div>
+
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Research Interests</h2>
+
+      <p>
+        Large Language Models, reasoning, internal representations,
+        representation analysis, and methods for improving the
+        robustness of LLM reasoning.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Contact</h2>
+
+      <p>
+        If you are interested in my research, please feel free to contact me.
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:YOUR_EMAIL">
+          YOUR_EMAIL
+        </a>
+      </p>
+    </section>
+
+
+    <footer>
+      © 2026 Yoshio Minemura
+    </footer>
+
+  </main>
+
+</body>
+</html>
