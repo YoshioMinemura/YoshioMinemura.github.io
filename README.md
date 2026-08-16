@@ -1,0 +1,2 @@
+# YoshioMinemura.github.io
+pages
